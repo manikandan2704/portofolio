@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.container {
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+
+.banner img {
+    height: 600px;
+    width: 100%;
+
+}
+
+.banner-flex {
+    width: 100%;
+    display: flex;
+
+}
+
+.banner-1 {
+    width: 50%;
+    margin-top: 100px;
+    position: absolute;
+    top: 0px;
+}
+
+.banner-1 h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 56px;
+    color: whitesmoke;
+    font-family: "Raleway", sans-serif
+}
+
+.banner-1 p {
+    text-align: center;
+    color: whitesmoke;
+    margin: 15px 0 0 0;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+}
+
+.banner-1 {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.header {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    position: fixed;
+    transition: all 0.5s;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+.header-flex {
+    height: auto;
+    width: 100%;
+}
+.navbar{
+    padding: 0;
+    display: block;
+}
+
+.navbar ul {
+    margin-top: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar li {
+    margin-top: 40px;
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.navbar a:hover {
+    background-color: aqua;
+    transition-duration: 1s;
+    width: 30px;
+}
+
+
+
+
+#about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width:100%;
+    height: auto;
+}
+.about-flex{
+    display: flex;
+}
+.about-1 img{
+    width:100%;
+    height: 380px;
+}
+.about-1{
+    width: 50%;
+    margin-right: 30px;
+}
+.about-1 h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #45505b;
+    font-family: "Raleway", sans-serif;
+}
+.about-1 h3{
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    color: #45505b;
+    font-family: "Raleway", sans-serif;
+}
+.about-1 p{
+    text-align: center;
+    color: #45505b;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.about-1 h4{
+}
