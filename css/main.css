@@ -6,50 +6,48 @@
 }
 
 .container {
-    width: 1180px;
+    width: 1150px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
 }
 
+
 .banner {
-    width: 100%;
     height: auto;
     position: relative;
 
 }
-
 .banner img {
     height: 600px;
     width: 100%;
-
 }
-
 .banner-flex {
     width: 100%;
-    display: flex;
-
-}
-
-.banner-1 {
-    width: 50%;
-    margin-top: 100px;
-    position: absolute;
-    top: 0px;
 }
 
 .banner-1 h2 {
+    opacity: 0;
+    position: absolute;
+    top: 30px;
+    left: 35%;
     text-align: center;
-    margin: 0;
     font-size: 60px;
     font-weight: 700;
-    line-height: 56px;
-    color: whitesmoke;
+    color: blue;
     font-family: "Raleway", sans-serif
 }
-
-.banner-1 p {
+.banner-1 h2:hover{
+    opacity: 1;
+    transition: 2s;
+    transition-property: 
+}
+.banner img:hover{
+    opacity: 1;
+    transition: 5s;
+}
+.banner-flex p {
     text-align: center;
     color: whitesmoke;
     margin: 15px 0 0 0;
@@ -57,55 +55,25 @@
     font-family: "Poppins", sans-serif;
 }
 
-.banner-1 {
-    width: 100%;
-    height: auto;
-}
-
-
 
 
 .header {
     height: auto;
     width: 100%;
-    position: absolute;
-    top: 70px;
-    left: 20px;
-    position: fixed;
-    transition: all 0.5s;
-    padding: 15px;
-    overflow-y: auto;
+  
 }
-
 .header-flex {
+    display: flex;
+    justify-content: right;
     height: auto;
     width: 100%;
 }
-.navbar{
-    padding: 0;
-    display: block;
+.navbar ul{
+    display: flex;
+    padding:10px 10px 20px 20px ;
 }
-
-.navbar ul {
-    margin-top: 20px;
-    font-family: "Open Sans", sans-serif;
-}
-
-.navbar li {
-    margin-top: 40px;
-    list-style: none;
-}
-
-.navbar a {
-    text-decoration: none;
-    font-size: 14px;
-
-}
-
-.navbar a:hover {
-    background-color: aqua;
-    transition-duration: 1s;
-    width: 30px;
+.navbar ul li{
+    padding:10px 10px 20px 20px ;
 }
 
 
@@ -114,7 +82,6 @@
 #about {
     padding-top: 80px;
     padding-bottom: 80px;
-    width:100%;
     height: auto;
 }
 .about-flex{
